@@ -58,6 +58,19 @@
 .heroTextCol {
   min-width: 0;
 }
+.heroLogo {
+  margin-bottom: 18px;
+}
+.heroLogo img {
+  display: inline-block;
+  height: 60px;
+  width: auto;
+}
+@media (max-width: 760px) {
+  .heroLogo img {
+    height: 48px;
+  }
+}
 .tagline {
   font-size: 0.78rem;
   letter-spacing: 2px;

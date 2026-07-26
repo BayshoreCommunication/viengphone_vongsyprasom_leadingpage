@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);let c="Viengphone Vongsyprasom, Esq. | Vongsyprasom Law, P.A.",d="Viengphone Vongsyprasom, Esq. — U.S. Immigration, DUI Defense, and Auto Accident & Personal Injury Attorney in Tampa, FL. Bilingual in English and Lao.",e={metadataBase:new URL("https://www.vienlaw.com"),title:c,description:d,openGraph:{title:c,description:d,url:"https://www.vienlaw.com",siteName:"Vongsyprasom Law, P.A.",locale:"en_US",type:"website"},twitter:{card:"summary_large_image",title:c,description:d}};a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{suppressHydrationWarning:!0,children:a})})},"metadata",0,e])},70864,a=>{a.n(a.i(33290))}];
+
+//# sourceMappingURL=app_layout_tsx_2144vk_._.js.map

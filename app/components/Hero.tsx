@@ -1,6 +1,12 @@
 import Image from "next/image";
 import styles from "../page.module.css";
-import { EmblemWatermark, GlobeIcon, ScaleIcon, ShieldIcon, HeartIcon } from "./icons";
+import {
+  EmblemWatermark,
+  GlobeIcon,
+  HeartIcon,
+  ScaleIcon,
+  ShieldIcon,
+} from "./icons";
 
 export default function Hero() {
   return (
@@ -19,12 +25,26 @@ export default function Hero() {
             />
           </div>
           <div className={styles.heroTextCol}>
+            <div className={styles.heroLogo}>
+              <Image
+                src="/viengphone-vongsyprasom-logo.png"
+                alt="Vongsyprasom Law, P.A. emblem"
+                width={1548}
+                height={317}
+                priority
+              />
+            </div>
             <h1 className={styles.name}>Viengphone Vongsyprasom, Esq.</h1>
             <div className={styles.titleEn}>
-              U.S. Immigration &middot; DUI Defense &middot; Auto Accident &amp; Personal Injury Attorney
+              U.S. Immigration &middot; DUI Defense &middot; Auto Accident &amp;
+              Personal Injury Attorney
             </div>
-            <div className={`${styles.lao} ${styles.laoName}`}>ວຽງພອນ ວົງສີປາສົມ, Esq.</div>
-            <div className={styles.lao}>ທະນາຍຄວາມກົດໝາຍຄົນເຂົ້າເມືອງສະຫະລັດ, ຄະດີ DUI, ແລະ ອຸປະຕິເຫດລົດ</div>
+            <div className={`${styles.lao} ${styles.laoName}`}>
+              ວຽງພອນ ວົງສີປາສົມ, Esq.
+            </div>
+            <div className={styles.lao}>
+              ທະນາຍຄວາມກົດໝາຍຄົນເຂົ້າເມືອງສະຫະລັດ, ຄະດີ DUI, ແລະ ອຸປະຕິເຫດລົດ
+            </div>
             <div className={styles.heroBadges}>
               <span className={styles.badge}>
                 <GlobeIcon />

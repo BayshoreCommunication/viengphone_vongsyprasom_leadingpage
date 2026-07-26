@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --black: #0c0c0c;
+  --near-black: #151515;
+  --card: #181818;
+  --silver: #c9c9c9;
+  --silver-light: #e8e8e8;
+  --rose: #c76b7e;
+  --rose-dim: rgba(199, 107, 126, 0.14);
+  --cream: #f6f5f2;
+  --text: #242424;
+  --shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background: var(--cream);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

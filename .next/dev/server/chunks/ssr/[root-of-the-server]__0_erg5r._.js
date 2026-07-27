@@ -907,7 +907,7 @@ const bio = [
     "Her deep understanding of the U.S. immigration system and her fierce advocacy style have helped countless families stay together and achieve stability in the United States.",
     "As a DUI defense attorney, Ms. Vongsyprasom provides strong, client-focused representation for individuals facing charges that threaten their freedom or immigration status.",
     "In her personal injury practice, Ms. Vongsyprasom brings unique experience as a former staff counsel for Government Employees Insurance Company (GEICO).",
-    "Before co-founding Tripathi Vongsyprasom Law, P.A., she practiced landlord-tenant disputes, homeowners association defense, family law, and criminal defense."
+    "Before co-founding Vongsyprasom Law, P.A., she practiced landlord-tenant disputes, homeowners association defense, family law, and criminal defense."
 ];
 const glance = [
     {
@@ -956,7 +956,7 @@ const glance = [
             lineNumber: 31,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        text: "President of Asian Pacific American Bar Association- Tampa Bay"
+        text: "President of Asian Pacific American Bar Association - Tampa Bay"
     }
 ];
 function About() {

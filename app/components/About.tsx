@@ -1,5 +1,11 @@
 import styles from "../page.module.css";
-import { GraduationCapIcon, PersonIcon, ShieldIcon, GlobeIcon } from "./icons";
+import {
+  AwardIcon,
+  GlobeIcon,
+  GraduationCapIcon,
+  PersonIcon,
+  ShieldIcon,
+} from "./icons";
 
 const bio = [
   "Attorney Vongsyprasom is a compassionate and strategic advocate devoted to helping clients navigate some of life's most challenging legal situations.",
@@ -13,11 +19,18 @@ const bio = [
 ];
 
 const glance = [
-  { icon: <GraduationCapIcon />, text: "J.D., Western Michigan University Cooley Law School, 2018" },
+  {
+    icon: <GraduationCapIcon />,
+    text: "J.D., Western Michigan University Cooley Law School, 2018",
+  },
   { icon: <PersonIcon />, text: "Member, The Florida Bar" },
   { icon: <ShieldIcon />, text: "Admitted, U.S. Immigration Courts" },
   { icon: <ShieldIcon />, text: "Former Staff Counsel, GEICO" },
   { icon: <GlobeIcon />, text: "Fluent in English & Lao" },
+  {
+    icon: <AwardIcon />,
+    text: "President of Asian Pacific American Bar Association- Tampa Bay",
+  },
 ];
 
 export default function About() {

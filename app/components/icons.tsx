@@ -104,6 +104,15 @@ export function MapPinIcon() {
   );
 }
 
+export function AwardIcon() {
+  return (
+    <svg viewBox="0 0 24 24" {...strokeProps} strokeWidth={2}>
+      <circle cx="12" cy="8" r="6" />
+      <path d="M8.5 13.5L7 22l5-3 5 3-1.5-8.5" />
+    </svg>
+  );
+}
+
 export function EmblemWatermark({ className }: { className?: string }) {
   return (
     <svg

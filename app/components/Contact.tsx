@@ -1,5 +1,11 @@
 import styles from "../page.module.css";
-import { PersonIcon, PhoneIcon, MailIcon, GlobeIcon, MapPinIcon } from "./icons";
+import {
+  PersonIcon,
+  PhoneIcon,
+  MailIcon,
+  GlobeIcon,
+  MapPinIcon,
+} from "./icons";
 
 export default function Contact() {
   return (
@@ -13,7 +19,9 @@ export default function Contact() {
           </div>
           <div>
             <div className={styles.contactLabel}>Attorney</div>
-            <div className={styles.contactValue}>Viengphone Vongsyprasom, Esq.</div>
+            <div className={styles.contactValue}>
+              Viengphone Vongsyprasom, Esq.
+            </div>
           </div>
         </div>
         <div className={styles.contactCard}>
@@ -60,7 +68,7 @@ export default function Contact() {
             <div className={styles.contactValue}>
               13046 Race Track Rd., #195
               <br />
-              Tampa, FL 33626
+              Riverview, FL 33626
             </div>
           </div>
         </div>

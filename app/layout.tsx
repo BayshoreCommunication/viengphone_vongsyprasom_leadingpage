@@ -3,7 +3,7 @@ import "./globals.css";
 
 const title = "Viengphone Vongsyprasom, Esq. | Vongsyprasom Law, P.A.";
 const description =
-  "Viengphone Vongsyprasom, Esq. — U.S. Immigration, DUI Defense, and Auto Accident & Personal Injury Attorney in Tampa, FL. Bilingual in English and Lao.";
+  "Viengphone Vongsyprasom, Esq. — U.S. Immigration, DUI Defense, and Auto Accident & Personal Injury Attorney in Riverview, FL. Bilingual in English and Lao.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.vienlaw.com"),

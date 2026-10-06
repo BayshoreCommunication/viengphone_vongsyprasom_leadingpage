@@ -68,7 +68,7 @@ export default function Contact() {
             <div className={styles.contactValue}>
               13046 Race Track Rd., #195
               <br />
-              Riverview, FL 33626
+              Tampa, FL 33626
             </div>
           </div>
         </div>

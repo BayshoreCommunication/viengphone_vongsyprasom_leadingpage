@@ -29,7 +29,7 @@ const glance = [
   { icon: <GlobeIcon />, text: "Fluent in English & Lao" },
   {
     icon: <AwardIcon />,
-    text: "President of Asian Pacific American Bar Association - Riverview Bay",
+    text: "President of Asian Pacific American Bar Association - Tampa Bay",
   },
 ];
 

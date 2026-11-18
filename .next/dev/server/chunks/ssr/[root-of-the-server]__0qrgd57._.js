@@ -2759,11 +2759,51 @@ function Hero() {
                             lineNumber: 27,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CONTACT_URL"],
-                            className: "inline-flex items-center gap-2 rounded-full border border-silver px-9 py-3.5 text-[0.85rem] uppercase tracking-[2px] text-white transition hover:-translate-y-0.5 hover:border-rose hover:bg-rose",
-                            children: "Schedule a Consultation"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-wrap items-center gap-3",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CONTACT_URL"],
+                                    className: "inline-flex items-center gap-2 rounded-full border border-silver px-9 py-3.5 text-[0.85rem] uppercase tracking-[2px] text-white transition hover:-translate-y-0.5 hover:border-rose hover:bg-rose",
+                                    children: "Schedule a Consultation"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "tel:+17273347327",
+                                    className: "inline-flex items-center gap-2 rounded-full bg-rose px-7 py-3.5 text-[0.85rem] font-semibold uppercase tracking-[2px] text-white transition hover:-translate-y-0.5 hover:bg-white hover:text-ink",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            viewBox: "0 0 24 24",
+                                            fill: "currentColor",
+                                            className: "h-4 w-4 shrink-0",
+                                            "aria-hidden": "true",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                fillRule: "evenodd",
+                                                d: "M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z",
+                                                clipRule: "evenodd"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
+                                                lineNumber: 42,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
+                                            lineNumber: 41,
+                                            columnNumber: 15
+                                        }, this),
+                                        "(727) 334-7327"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
+                                    lineNumber: 37,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
                             lineNumber: 30,
                             columnNumber: 11
@@ -2785,12 +2825,12 @@ function Hero() {
                         className: "object-cover"
                     }, void 0, false, {
                         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
-                        lineNumber: 38,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Hero.tsx",
-                    lineNumber: 37,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]

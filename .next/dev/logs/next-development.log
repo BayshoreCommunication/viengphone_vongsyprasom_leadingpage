@@ -2,3 +2,5 @@
 {"timestamp":"00:00:01.039","source":"Server","level":"WARN","message":"⚠ Slow filesystem detected. The benchmark took 419ms. If /run/media/shamim-ahsan/New Volume/Special/Projects/2026/viengphone_vongsyprasom_leadingpage/.next/dev is a network drive, consider moving it to a local folder.\nSee more: https://nextjs.org/docs/app/guides/local-development"}
 {"timestamp":"00:08:32.206","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
 {"timestamp":"00:14:05.601","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:21:30.986","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
+{"timestamp":"00:21:31.461","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}

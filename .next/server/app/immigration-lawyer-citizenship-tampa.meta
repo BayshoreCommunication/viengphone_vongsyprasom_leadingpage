@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(seo-services)/layout,_N_T_/(seo-services)/immigration-lawyer-citizenship-tampa/layout,_N_T_/(seo-services)/immigration-lawyer-citizenship-tampa/page,_N_T_/immigration-lawyer-citizenship-tampa"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNlby1zZXJ2aWNlcyk/immigration-lawyer-citizenship-tampa/__PAGE__",
+    "/!KHNlby1zZXJ2aWNlcyk/immigration-lawyer-citizenship-tampa",
+    "/!KHNlby1zZXJ2aWNlcyk",
+    "/_index",
+    "/_head"
+  ]
+}

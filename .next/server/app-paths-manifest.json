@@ -1,7 +1,10 @@
 {
+  "/(seo-services)/immigration-lawyer-citizenship-tampa/page": "app/(seo-services)/immigration-lawyer-citizenship-tampa/page.js",
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/opengraph-image.png/route": "app/opengraph-image.png/route.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }

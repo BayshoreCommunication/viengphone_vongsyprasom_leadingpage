@@ -104,7 +104,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/swop/Desktop/Viengphone-Vongsyprasom-Website",
+    "outputFileTracingRoot": "/run/media/shamim-ahsan/New Volume/Special/Projects/2026/viengphone_vongsyprasom_leadingpage",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -304,11 +304,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/Users/swop/Desktop/Viengphone-Vongsyprasom-Website"
+      "root": "/run/media/shamim-ahsan/New Volume/Special/Projects/2026/viengphone_vongsyprasom_leadingpage"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/swop/Desktop/Viengphone-Vongsyprasom-Website",
+  "appDir": "/run/media/shamim-ahsan/New Volume/Special/Projects/2026/viengphone_vongsyprasom_leadingpage",
   "relativeAppDir": "",
   "files": [
     ".next/package.json",

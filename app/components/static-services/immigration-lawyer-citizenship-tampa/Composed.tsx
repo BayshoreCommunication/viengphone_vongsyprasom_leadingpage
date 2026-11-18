@@ -7,6 +7,7 @@ import {
   FAQS,
   FEES,
   LICENSED_ATTORNEY,
+  OFFICE,
   PRACTICE_AREAS,
   PROCESS,
 } from "./content";
@@ -129,11 +130,41 @@ export function PracticeAreas() {
   return (
     <Shell id={PRACTICE_AREAS.id} eyebrow="Where we help" title={PRACTICE_AREAS.title} intro={PRACTICE_AREAS.intro} alt>
       {PRACTICE_AREAS.groups.map((g) => (
-        <div key={g.title} className="mb-7 last:mb-0">
+        <div key={g.title} className="mb-10">
           <h3 className="mb-3 font-sans text-[1rem] font-semibold text-ink">{g.title}</h3>
           <Chips items={g.items} />
         </div>
       ))}
+      <div id="office-location" className="grid scroll-mt-16 items-stretch gap-6 md:grid-cols-[1.4fr_1fr]">
+        <div className="min-h-[300px] overflow-hidden rounded-2xl border border-[#e4dfd3] shadow-sm">
+          <iframe
+            src={OFFICE.mapSrc}
+            title={OFFICE.mapTitle}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="h-full min-h-[300px] w-full border-0"
+          />
+        </div>
+        <address className="flex flex-col justify-center rounded-2xl bg-ink p-8 not-italic text-silver-light">
+          <div className="mb-3 text-[0.75rem] font-semibold uppercase tracking-[3px] text-rose">{OFFICE.label}</div>
+          <p className="mb-6 text-[1.2rem] leading-relaxed text-white">
+            {OFFICE.lines.map((line, i) => (
+              <span key={line}>
+                {line}
+                {i < OFFICE.lines.length - 1 && <br />}
+              </span>
+            ))}
+          </p>
+          <a
+            href={OFFICE.directionsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="self-start rounded-full bg-rose px-6 py-2.5 text-[0.78rem] font-bold uppercase tracking-[1.5px] text-white transition hover:bg-white hover:text-ink"
+          >
+            Get Directions
+          </a>
+        </address>
+      </div>
     </Shell>
   );
 }

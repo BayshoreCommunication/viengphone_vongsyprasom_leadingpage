@@ -912,6 +912,8 @@ __turbopack_context__.s([
     ()=>NAV_LINKS,
     "OATH_BENEFITS",
     ()=>OATH_BENEFITS,
+    "OFFICE",
+    ()=>OFFICE,
     "PAGE_PATH",
     ()=>PAGE_PATH,
     "PRACTICE_AREAS",
@@ -1467,31 +1469,6 @@ const PRACTICE_AREAS = {
                 "VAWA Immigration Cases",
                 "U Visas and Humanitarian Immigration Options"
             ]
-        },
-        {
-            title: "Tampa Neighborhoods Served",
-            items: [
-                "Downtown Tampa",
-                "South Tampa",
-                "Hyde Park",
-                "Westshore",
-                "Carrollwood",
-                "Seminole Heights",
-                "Ybor City",
-                "New Tampa",
-                "Town 'N' Country"
-            ]
-        },
-        {
-            title: "Surrounding Hillsborough County Communities",
-            items: [
-                "Brandon",
-                "Riverview",
-                "Temple Terrace",
-                "Plant City",
-                "Citrus Park",
-                "Seffner"
-            ]
         }
     ]
 };
@@ -1564,6 +1541,16 @@ const NAV_LINKS = [
         label: "FAQ"
     }
 ];
+const OFFICE = {
+    label: "Office Address",
+    lines: [
+        "13046 Race Track Rd., #195",
+        "Tampa, FL 33626"
+    ],
+    mapTitle: "Map showing Vongsyprasom Law, P.A. at 13046 Race Track Rd., #195, Tampa, FL 33626",
+    mapSrc: "https://www.google.com/maps?q=13046+Race+Track+Rd+%23195+Tampa+FL+33626&output=embed",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=13046+Race+Track+Rd+%23195+Tampa+FL+33626"
+};
 }),
 "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Blocks.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -2225,12 +2212,12 @@ function Eligibility() {
             items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ELIGIBILITY"].bullets
         }, void 0, false, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 20,
+            lineNumber: 21,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 19,
+        lineNumber: 20,
         columnNumber: 5
     }, this);
 }
@@ -2249,25 +2236,25 @@ function Documents() {
                     openFirst: true
                 }, void 0, false, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 30,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Sections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Accordion"], {
                     items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["DOCUMENTS"].items.slice(half)
                 }, void 0, false, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 31,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
@@ -2285,7 +2272,7 @@ function TimelineAndCivics() {
                             children: "What to expect"
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 43,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2293,7 +2280,7 @@ function TimelineAndCivics() {
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PROCESSING"].title
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 44,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2301,20 +2288,20 @@ function TimelineAndCivics() {
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PROCESSING"].intro
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Sections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Timeline"], {
                             items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PROCESSING"].items
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 48,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 42,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2326,7 +2313,7 @@ function TimelineAndCivics() {
                             children: "Interview ready"
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 51,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2334,7 +2321,7 @@ function TimelineAndCivics() {
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CIVICS_PREP"].title
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 52,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2342,31 +2329,31 @@ function TimelineAndCivics() {
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CIVICS_PREP"].intro
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 55,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Sections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Accordion"], {
                             items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CIVICS_PREP"].items
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 56,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 50,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 41,
+            lineNumber: 42,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }
@@ -2380,12 +2367,12 @@ function Fees() {
             items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FEES"].items
         }, void 0, false, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 66,
+            lineNumber: 67,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 65,
+        lineNumber: 66,
         columnNumber: 5
     }, this);
 }
@@ -2400,7 +2387,7 @@ function LicensedAttorneyAndTable() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Blocks$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AttorneyFigure"], {}, void 0, false, {
                         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                        lineNumber: 76,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2409,18 +2396,18 @@ function LicensedAttorneyAndTable() {
                             text: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["LICENSED_ATTORNEY"].text
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                        lineNumber: 77,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                lineNumber: 75,
+                lineNumber: 76,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2429,7 +2416,7 @@ function LicensedAttorneyAndTable() {
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["COMPARISON"].title
             }, void 0, false, {
                 fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                lineNumber: 81,
+                lineNumber: 82,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2445,17 +2432,17 @@ function LicensedAttorneyAndTable() {
                                         children: h
                                     }, h, false, {
                                         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 90,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                                lineNumber: 87,
+                                lineNumber: 88,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 86,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2468,7 +2455,7 @@ function LicensedAttorneyAndTable() {
                                             children: area
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 99,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2476,7 +2463,7 @@ function LicensedAttorneyAndTable() {
                                             children: us
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                                            lineNumber: 99,
+                                            lineNumber: 100,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2484,35 +2471,35 @@ function LicensedAttorneyAndTable() {
                                             children: others
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 101,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, area, true, {
                                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 98,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                            lineNumber: 95,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 85,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                lineNumber: 84,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 74,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }
@@ -2526,7 +2513,7 @@ function ProcessSection() {
             text: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PROCESS"].intro
         }, void 0, false, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 117,
+            lineNumber: 118,
             columnNumber: 14
         }, this),
         alt: true,
@@ -2537,7 +2524,7 @@ function ProcessSection() {
                     items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PROCESS"].steps.slice(0, half)
                 }, void 0, false, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 121,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Sections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Timeline"], {
@@ -2545,18 +2532,18 @@ function ProcessSection() {
                     start: half + 1
                 }, void 0, false, {
                     fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                    lineNumber: 122,
+                    lineNumber: 123,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 120,
+            lineNumber: 121,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 113,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 }
@@ -2567,33 +2554,112 @@ function PracticeAreas() {
         title: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PRACTICE_AREAS"].title,
         intro: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PRACTICE_AREAS"].intro,
         alt: true,
-        children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PRACTICE_AREAS"].groups.map((g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-7 last:mb-0",
+        children: [
+            __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PRACTICE_AREAS"].groups.map((g)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mb-10",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "mb-3 font-sans text-[1rem] font-semibold text-ink",
+                            children: g.title
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                            lineNumber: 134,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Sections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Chips"], {
+                            items: g.items
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                            lineNumber: 135,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, g.title, true, {
+                    fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                    lineNumber: 133,
+                    columnNumber: 9
+                }, this)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                id: "office-location",
+                className: "grid scroll-mt-16 items-stretch gap-6 md:grid-cols-[1.4fr_1fr]",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "mb-3 font-sans text-[1rem] font-semibold text-ink",
-                        children: g.title
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "min-h-[300px] overflow-hidden rounded-2xl border border-[#e4dfd3] shadow-sm",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                            src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OFFICE"].mapSrc,
+                            title: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OFFICE"].mapTitle,
+                            loading: "lazy",
+                            referrerPolicy: "no-referrer-when-downgrade",
+                            className: "h-full min-h-[300px] w-full border-0"
+                        }, void 0, false, {
+                            fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                            lineNumber: 140,
+                            columnNumber: 11
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                        lineNumber: 133,
-                        columnNumber: 11
+                        lineNumber: 139,
+                        columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$Sections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Chips"], {
-                        items: g.items
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("address", {
+                        className: "flex flex-col justify-center rounded-2xl bg-ink p-8 not-italic text-silver-light",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mb-3 text-[0.75rem] font-semibold uppercase tracking-[3px] text-rose",
+                                children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OFFICE"].label
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                                lineNumber: 149,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mb-6 text-[1.2rem] leading-relaxed text-white",
+                                children: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OFFICE"].lines.map((line, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: [
+                                            line,
+                                            i < __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OFFICE"].lines.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                                                lineNumber: 154,
+                                                columnNumber: 49
+                                            }, this)
+                                        ]
+                                    }, line, true, {
+                                        fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                                        lineNumber: 152,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                                lineNumber: 150,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["OFFICE"].directionsUrl,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "self-start rounded-full bg-rose px-6 py-2.5 text-[0.78rem] font-bold uppercase tracking-[1.5px] text-white transition hover:bg-white hover:text-ink",
+                                children: "Get Directions"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
+                                lineNumber: 158,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                        lineNumber: 134,
-                        columnNumber: 11
+                        lineNumber: 148,
+                        columnNumber: 9
                     }, this)
                 ]
-            }, g.title, true, {
+            }, void 0, true, {
                 fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-                lineNumber: 132,
-                columnNumber: 9
-            }, this))
-    }, void 0, false, {
+                lineNumber: 138,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 130,
+        lineNumber: 131,
         columnNumber: 5
     }, this);
 }
@@ -2606,12 +2672,12 @@ function Faq() {
             items: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$static$2d$services$2f$immigration$2d$lawyer$2d$citizenship$2d$tampa$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FAQS"]
         }, void 0, false, {
             fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-            lineNumber: 144,
+            lineNumber: 175,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/components/static-services/immigration-lawyer-citizenship-tampa/Composed.tsx",
-        lineNumber: 143,
+        lineNumber: 174,
         columnNumber: 5
     }, this);
 }

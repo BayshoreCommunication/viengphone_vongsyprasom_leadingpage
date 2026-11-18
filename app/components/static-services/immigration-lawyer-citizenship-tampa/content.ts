@@ -313,24 +313,6 @@ export const PRACTICE_AREAS = {
         "U Visas and Humanitarian Immigration Options",
       ],
     },
-    {
-      title: "Tampa Neighborhoods Served",
-      items: [
-        "Downtown Tampa",
-        "South Tampa",
-        "Hyde Park",
-        "Westshore",
-        "Carrollwood",
-        "Seminole Heights",
-        "Ybor City",
-        "New Tampa",
-        "Town 'N' Country",
-      ],
-    },
-    {
-      title: "Surrounding Hillsborough County Communities",
-      items: ["Brandon", "Riverview", "Temple Terrace", "Plant City", "Citrus Park", "Seffner"],
-    },
   ],
 };
 
@@ -404,3 +386,13 @@ export const NAV_LINKS = [
   { href: "#fees-and-waivers", label: "Fees" },
   { href: "#faq", label: "FAQ" },
 ] as const;
+
+export const OFFICE = {
+  label: "Office Address",
+  lines: ["13046 Race Track Rd., #195", "Tampa, FL 33626"],
+  mapTitle: "Map showing Vongsyprasom Law, P.A. at 13046 Race Track Rd., #195, Tampa, FL 33626",
+  mapSrc:
+    "https://www.google.com/maps?q=13046+Race+Track+Rd+%23195+Tampa+FL+33626&output=embed",
+  directionsUrl:
+    "https://www.google.com/maps/search/?api=1&query=13046+Race+Track+Rd+%23195+Tampa+FL+33626",
+};
